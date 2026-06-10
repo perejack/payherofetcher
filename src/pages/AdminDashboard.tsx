@@ -497,7 +497,7 @@ export default function AdminDashboard() {
                                 </span>
 
                                 {/* Actions */}
-                                <div className="flex items-center gap-2 mt-1 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
+                                <div className="flex items-center gap-2 mt-1">
                                   {app.is_used ? (
                                     <span className="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-green-500/10 border border-green-500/20 text-green-700 text-[11px] font-semibold">
                                       <CheckCircle className="w-3 h-3" />
